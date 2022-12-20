@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+nav {
+  background-color: var(--fourth-color);
+  box-shadow: 0 3px 5px 3px rgba(0, 43, 91, .5);
+  height: 5rem;
+  
+  position: relative;
+  z-index: 9;             /* move it to the front of the #genre-field */
+}
+
+
+img {
+  width: 200px;
+}
